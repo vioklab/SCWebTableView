@@ -1,5 +1,5 @@
 //
-//  SCViewController.h
+//  SCTableViewController.h
 //  SCWebTableView
 //
 //  Created by Leo on 26/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SCViewController : UIViewController
-    @property (strong, nonatomic) NSDictionary *deviceDetail;
+@interface SCTableViewController : UITableViewController
+
 @end
