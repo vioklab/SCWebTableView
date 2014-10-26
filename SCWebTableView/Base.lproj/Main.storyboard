@@ -8,27 +8,27 @@
         <scene sceneID="mEj-2F-0hb">
             <objects>
                 <tableViewController id="hYl-Sm-Ejn" customClass="SCTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Phs-5M-R5J">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" id="Phs-5M-R5J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="soQ-lf-kiR" detailTextLabel="MU6-Fb-gl3" style="IBUITableViewCellStyleSubtitle" id="Bue-Ug-vNr">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="soQ-lf-kiR" detailTextLabel="MU6-Fb-gl3" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="Bue-Ug-vNr">
+                                <rect key="frame" x="0.0" y="22" width="320" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bue-Ug-vNr" id="J0I-uK-mNA">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="49"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="soQ-lf-kiR">
-                                            <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                            <rect key="frame" x="15" y="6" width="34" height="22"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MU6-Fb-gl3">
-                                            <rect key="frame" x="15" y="25" width="43" height="15"/>
+                                            <rect key="frame" x="15" y="28" width="43" height="15"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.0" green="0.75249302389999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,8 +36,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="push" id="ZbR-bg-9l1"/>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="fsZ-3f-F9y"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -46,44 +47,19 @@
                             <outlet property="delegate" destination="hYl-Sm-Ejn" id="ZMI-g7-fsY"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Devices" image="facebook_places.png" badgeValue="0" id="62w-qX-vDV"/>
                     <navigationItem key="navigationItem" title="Devices" id="7Um-g1-04q"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubK-0Z-DzS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-378" y="50"/>
-        </scene>
-        <!--View Controller - Map-->
-        <scene sceneID="bCd-lb-SUc">
-            <objects>
-                <viewController id="Bd7-Zi-aHH" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CkX-iW-0eN"/>
-                        <viewControllerLayoutGuide type="bottom" id="a9y-D1-8Lx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0eC-DP-byV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sectin 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Clu-ot-gy7">
-                                <rect key="frame" x="48" y="62" width="63" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="KIi-tY-5Dd"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BXn-Nn-PZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-466" y="750"/>
+            <point key="canvasLocation" x="-445" y="672"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="91H-hO-ZqW">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="HLE-xL-ydV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jW8-GE-hdh"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="aHN-wQ-1cO">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
@@ -91,7 +67,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Bd7-Zi-aHH" kind="relationship" relationship="viewControllers" id="ZA1-1Q-XuB"/>
+                        <segue destination="hYl-Sm-Ejn" kind="relationship" relationship="viewControllers" id="jzf-FQ-dGM"/>
                         <segue destination="ocL-0a-4G0" kind="relationship" relationship="viewControllers" id="zvw-2j-5DA"/>
                     </connections>
                 </tabBarController>
@@ -99,7 +75,7 @@
             </objects>
             <point key="canvasLocation" x="-1000" y="1076"/>
         </scene>
-        <!--View Controller - Devices-->
+        <!--View Controller - Map-->
         <scene sceneID="OZa-av-Opv">
             <objects>
                 <viewController id="ocL-0a-4G0" sceneMemberID="viewController">
@@ -121,26 +97,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Devices" badgeValue="0" id="Tcv-cl-1AN"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="mobileme.png" id="Tcv-cl-1AN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0e-DE-eE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-466" y="1402"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="eBd-PS-7ed">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="763-go-Mzb" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="haJ-zo-0WB">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="hYl-Sm-Ejn" kind="relationship" relationship="rootViewController" id="rip-Mo-q1c"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cfW-LP-ncs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-788" y="50"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -401,8 +362,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qds-XL-rjh"/>
+                    <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="deviceBatteryLabel" destination="Z8N-3b-0Su" id="pSn-vl-3Hr"/>
                         <outlet property="deviceCOLabel" destination="koL-DG-nx2" id="I6E-HX-Olc"/>
@@ -422,9 +384,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="50"/>
+            <point key="canvasLocation" x="47" y="662"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="facebook_places.png" width="32" height="32"/>
+        <image name="mobileme.png" width="32" height="32"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

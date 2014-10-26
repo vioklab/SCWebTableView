@@ -23,6 +23,9 @@
 		690EF6E419FC6B3B003CE70E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 690EF6E219FC6B3B003CE70E /* InfoPlist.strings */; };
 		690EF6E619FC6B3B003CE70E /* SCWebTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 690EF6E519FC6B3B003CE70E /* SCWebTableViewTests.m */; };
 		69BA870E19FC6DE000940AC4 /* SCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BA870D19FC6DE000940AC4 /* SCTableViewController.m */; };
+		69E83F0519FD91350016946E /* facebook_places.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E83F0419FD91350016946E /* facebook_places.png */; };
+		69E83F0719FD93580016946E /* android-earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E83F0619FD93580016946E /* android-earth.png */; };
+		69E83F0919FD94690016946E /* mobileme.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E83F0819FD94690016946E /* mobileme.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		690EF6E519FC6B3B003CE70E /* SCWebTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCWebTableViewTests.m; sourceTree = "<group>"; };
 		69BA870C19FC6DE000940AC4 /* SCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewController.h; sourceTree = "<group>"; };
 		69BA870D19FC6DE000940AC4 /* SCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewController.m; sourceTree = "<group>"; };
+		69E83F0419FD91350016946E /* facebook_places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_places.png; sourceTree = "<group>"; };
+		69E83F0619FD93580016946E /* android-earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-earth.png"; sourceTree = "<group>"; };
+		69E83F0819FD94690016946E /* mobileme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobileme.png; sourceTree = "<group>"; };
 		C16325BA22F95F8B31BA0B2B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C5CA61BFF4F32F2FABE2977E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CEE80C542D0089F18832FB74 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +128,9 @@
 		690EF6C019FC6B3B003CE70E /* SCWebTableView */ = {
 			isa = PBXGroup;
 			children = (
+				69E83F0819FD94690016946E /* mobileme.png */,
+				69E83F0619FD93580016946E /* android-earth.png */,
+				69E83F0419FD91350016946E /* facebook_places.png */,
 				690EF6C919FC6B3B003CE70E /* SCAppDelegate.h */,
 				690EF6CA19FC6B3B003CE70E /* SCAppDelegate.m */,
 				690EF6CC19FC6B3B003CE70E /* Main.storyboard */,
@@ -252,9 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E83F0719FD93580016946E /* android-earth.png in Resources */,
 				690EF6D319FC6B3B003CE70E /* Images.xcassets in Resources */,
 				690EF6C519FC6B3B003CE70E /* InfoPlist.strings in Resources */,
 				690EF6CE19FC6B3B003CE70E /* Main.storyboard in Resources */,
+				69E83F0519FD91350016946E /* facebook_places.png in Resources */,
+				69E83F0919FD94690016946E /* mobileme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
